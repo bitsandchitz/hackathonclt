@@ -3,7 +3,9 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import {RouterModule, Routes} from '@angular/router';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { BrowserModule } from '@angular/platform-browser'
+import * as $ from 'jquery';
+
+
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -24,8 +26,7 @@ const appRoutes: Routes =  [
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes),
-    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]

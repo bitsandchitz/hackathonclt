@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+.no-border {
+  border: none;
+}
+.card-body {
+  padding: 0;
+}
+.dope-shadow {
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 4px 0px, rgba(0, 0, 0, 0.28) 0px 4px 8px 0px;
+}
+small {
+  color: #888;
+}
+.jumbotron {
+  margin-top: 30px;
+}
+
+.my-4 .row {
+  margin: 0;
+}
