@@ -9,17 +9,20 @@ import * as $ from 'jquery';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 const appRoutes: Routes =  [
   {path:'', component: HomeComponent},
-  {path:'home', component: HomeComponent}
+  {path:'home', component: HomeComponent},
+  {path: 'dashboard', component: DashboardComponent}
 ]
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
